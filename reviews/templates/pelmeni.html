@@ -1,0 +1,27 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="shortcut icon" href="{% static 'images/favicon.ico' %}" type="image/png">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Книга отзывов и предложений</h1>
+    <div class="review-form">
+        <h2>Оставить отзыв</h2>
+        <form>
+            <p><input type="text" placeholder="ABOBA"></p>
+            <p><input type="text" placeholder="@gmail.com"></p>
+            <p><textarea placeholder="Ваш отзыв" cols="50" rows="5"></textarea></p>
+            <p><input type="submit" value="Отправить отзыв"></p>
+        </form>
+    </div>
+    <div class="reviews">
+        <h2>Все отзывы</h2>
+    </div>
+</body>
+</html>

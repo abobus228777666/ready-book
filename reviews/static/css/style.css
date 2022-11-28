@@ -1,0 +1,35 @@
+body{
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color:rgb(55, 60, 131);
+}
+
+h1{
+    font-weight: normal;
+    border-bottom: 2px solid rgb(3, 29, 49);
+    margin-right: 24%;
+}
+
+h2{
+    font-weight: normal;
+    margin-bottom: 30 px;
+    font-size: 26px;
+}
+
+input, textarea{
+    margin-bottom: 10px;
+    background: rgba(16, 88, 182, 0.767); 
+    border: 0;
+    padding: 6px 10px;
+    font-size: 20px;
+    width: 40%;
+}
+
+input[type=submit]{
+    font-weight: bold;
+    background-color: rgb(59, 107, 196);
+    color:rgb(7, 20, 56);
+    padding: 10px 20px;
+    font-size: 20px;
+    width: auto;
+}
