@@ -33,3 +33,8 @@ input[type=submit]{
     font-size: 20px;
     width: auto;
 }
+
+label{
+    display: block;
+    font-size: 20px;
+}

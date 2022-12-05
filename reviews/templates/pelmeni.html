@@ -13,15 +13,15 @@
     <h1>Книга отзывов и предложений</h1>
     <div class="review-form">
         <h2>Оставить отзыв</h2>
-        <form>
-            <p><input type="text" placeholder="ABOBA"></p>
-            <p><input type="text" placeholder="@gmail.com"></p>
-            <p><textarea placeholder="Ваш отзыв" cols="50" rows="5"></textarea></p>
+        <form method="post">
+            {% csrf_token %}
+            {{ form.as_p }}
             <p><input type="submit" value="Отправить отзыв"></p>
         </form>
     </div>
     <div class="reviews">
         <h2>Все отзывы</h2>
+        <p><em>{{aboba}}{{bobamail}} оставил отзыв {{boba_review}}</em></p>
     </div>
 </body>
 </html>
